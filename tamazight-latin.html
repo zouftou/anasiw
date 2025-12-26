@@ -9,7 +9,88 @@
     <link href="styles/anasiw.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Anasiw</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+
+        <section class="row">
+            <!-- ZONE PRINCIPALE -->
+            <section class="col-md-8">
+
+                <!-- Zone de saisie -->
+                <section class="mb-4">
+                    <textarea id="ansa" class="form-control" rows="10" placeholder="Uru ayenna trid da..."></textarea>
+                </section>
+
+                <!-- Clavier de caractères -->
+                <section class="mb-4">
+                    <div class="char-grid" id="charKeyboard">
+                        <!-- Ligne 1 : MAJUSCULES -->
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="Č">Č</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="Ḍ">Ḍ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="Ǧ">Ǧ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="Ḥ">Ḥ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="Ṛ">Ṛ</button>
+
+                        <!-- Ligne 2 : minuscules -->
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="č">č</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="ḍ">ḍ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="ǧ">ǧ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="ḥ">ḥ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="ṛ">ṛ</button>
+                    </div>
+                </section>
+                <section class="mb-4">
+                    <div class="char-grid" id="charKeyboard1">
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="Ṣ">Ṣ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="Ṭ">Ṭ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="Ẓ">Ẓ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="Γ">Γ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="Σ">Σ</button>
+
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="ṣ">ṣ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="ṭ">ṭ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="ẓ">ẓ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="ɣ">ɣ</button>
+                        <button type="button" class="btn btn-outline-secondary btn-sm" data-char="ɛ">ɛ</button>
+                    </div>
+                </section>
+            </section>
+
+            <!-- ASIDE -->
+            <aside class="col-md-4">
+                <div class="bg-light p-3 rounded">
+                    <h3 class="h5">Related</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="#">HTML Guide</a></li>
+                        <li><a href="#">Bootstrap Docs</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+        </section>
+
+    </main>
+
+
+    <footer class="bg-light py-4 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 My Website</p>
+        </div>
+    </footer>
 
     <script src="scripts/bootstrap.bundle.min.js"></script>
     <script src="scripts/anasiw.js"></script>
