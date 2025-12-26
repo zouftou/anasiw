@@ -7,7 +7,7 @@ Amazigh Keyboard
 | ḍ/ Ḍ | Iḍan (Nuits) |
 | ḥ/ Ḥ    | Ḥewwa (Eve) |
 | ğ/ Ğ | Ur ğğin (Ne jamais) |
-| γ/ Γ | Γef (Sur) |
+| ɣ/ Γ | Γef (Sur) |
 | ṛ/ Ṛ | Beṛṛa (Dehors) |
 | ṣ/ Ṣ | Ṣinṣeg (Siffler) |
 | ṭ/ Ṭ | Tiṭ (Oeil) |
