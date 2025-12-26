@@ -1,7 +1,7 @@
-# Anasiw
-Amazigh Keyboard
+# Anasiw (Clavier)
 
-## Alphabet
+## Agemmay (Alphabet)
+
 | Asekkil (lettre) | Amedya (exemple) |
 | -------- | ------- |
 | č/Č  | Ičča (Il a mangé) |
