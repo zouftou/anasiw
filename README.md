@@ -1,6 +1,7 @@
 # Anasiw
 Amazigh Keyboard
 
+## Alphabet
 | Asekkil (lettre) | Amedya (exemple) |
 | -------- | ------- |
 | č/Č  | Ičča (Il a mangé) |
