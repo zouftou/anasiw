@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anasiw amazigh - isekkilen ilatiniyen</title>
     <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link href="styles/anasiw.css" rel="stylesheet">
 </head>
 
@@ -16,6 +17,11 @@
                 <a class="navbar-brand d-flex align-items-center gap-2" href="#">
                     <img src="/images/logo.png" alt="logo" width="30" height="30">
                     <span>Anasiw</span>
+                </a>
+                <a href="https://github.com/amazigh-software/anasiw"
+                    class="ms-auto d-flex align-items-center text-dark fs-4" target="_blank"
+                    aria-label="Source code on GitHub">
+                    <i class="bi bi-github"></i>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -34,7 +40,8 @@
 
                 <!-- Zone de saisie -->
                 <section class="mb-4">
-                    <textarea id="ansa" class="form-control" rows="10" placeholder="Uru ayenna trid da..."></textarea>
+                    <textarea id="tirra" class="form-control" rows="10" onkeyup="directMode()"
+                        placeholder="Uru ayenna trid da..."></textarea>
                 </section>
 
                 <!-- Clavier de caractères -->
@@ -200,7 +207,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <h3 class="h5">Contributors</h3>
+                <h3 class="h5">Imttekkiyen</h3>
                 <a href="https://github.com/zouftou">zouftou</a>
             </aside>
         </section>
